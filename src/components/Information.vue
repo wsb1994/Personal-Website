@@ -25,47 +25,53 @@ export default {
           img:
             "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png",
           language: "Python",
-          color: "blue",
+          color: "black",
           exp: "@CPlan-IT",
         },
         {
           img: "https://rustacean.net/assets/cuddlyferris.png",
           language: "Rust",
-          color: "pink",
+          color: "black",
           exp: "@Disney+",
         },
         {
           img:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
           language: "Vue",
-          color: "blue",
+          color: "black",
           exp: "@Cplan-IT",
         },
         {
           img:
             "https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png",
           language: "MongoDB",
-          color: "green",
+          color: "black",
           exp: "@Cplan-IT",
         },
         {
           img:
             "https://blog.iron.io/wp-content/uploads/2016/01/docker-logo.png",
           language: "Docker",
-          color: "blue",
+          color: "black",
           exp: "@ViacomCBS",
         },
         {
           img:
             "https://www.probytes.net/wp-content/uploads/2018/10/flask-logo-png-transparent.png",
           language: "Flask",
-          color: "pink",
+          color: "black",
           exp: "@Cplan-IT",
         },
         {
           img: "https://www.a2go.org/images/logo.png",
           language: "Go",
-          color: "blue",
+          color: "black",
+          exp: "@ViacomCBS",
+        },
+        {
+          img: "https://symfony.com/logos/symfony_black_03.png",
+          language: "Symfony",
+          color: "black",
           exp: "@ViacomCBS",
         },
       ],
@@ -85,6 +91,16 @@ export default {
   border-radius: 30px;
   width: 100;
 }
+
+.black {
+  color: Black;
+  font-family: "Georgia", "Times New Roman", Times, serif, serif;
+  padding: 16px;
+  border-style: solid;
+  border-radius: 30px;
+  width: 100;
+}
+
 
 .pink {
   color: black;

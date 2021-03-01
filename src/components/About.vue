@@ -2,7 +2,9 @@
 <template>
   <div class="About">
     <div class="flex-container">
+       <div class="flex-container">
       <h1 class="pastel1" @click="render_about">about</h1>
+      </div>
       <h1 class="spacer"></h1>
       <a href="https://github.com/wsb1994">
         <h1 class="pastel2">github</h1>
@@ -50,7 +52,7 @@ export default {
 <style scoped>
 .pastel1 {
   color: black;
-  background: #B5EAD7;
+  background:#C7CEEA;
   font-family: "Georgia", "Times New Roman", Times, serif, serif;
   padding: 16px;
   border-style: solid;
@@ -68,7 +70,7 @@ export default {
 }
 .pastel3 {
   color: black;
-  background: #ffdac1;
+  background: #E2F0CB;
   font-family: "Georgia", "Times New Roman", Times, serif, serif;
   padding: 16px;
   border-style: solid;
@@ -77,7 +79,7 @@ export default {
 }
 .pastel4 {
   color: black;
-  background: #e2f0cb;
+  background: #B5EAD7;
   font-family: "Georgia", "Times New Roman", Times, serif, serif;
   padding: 16px;
   border-style: solid;

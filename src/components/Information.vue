@@ -1,48 +1,17 @@
-
 <template>
-  <div class="About">
-    <div class="flex-container">
-      <h1 class="pastel1" @click="render_about">about</h1>
-      <h1 class="spacer"></h1>
-      <a href="https://github.com/wsb1994">
-        <h1 class="pastel2">github</h1>
-      </a>
-      <h1 class="spacer"></h1>
-      <h1 class="pastel3" @click="render_links">links</h1>
-      <h1 class="spacer"></h1>
-      <h1 class="pastel4">resume</h1>
-      <h1 class="spacer"></h1>
-    </div>
-
-    <div v-if="which_stuff === 'about'"> <Information/> </div>
-    <div v-if="which_stuff === 'links'"> ToDo Links </div>
+ <div class="flex-container">
+  <div class="Information">
+      <div class='pastel1'>
+      <img src="https://cutewallpaper.org/21/big-chungus-picture/Big-Chungus-that-you-can-print-and-color-it.-BigChungus.jpg"  style="width:200px;height:200px;">
+      <h1 class='pastel2'> Wungus </h1>
+      </div>
+  </div>
   </div>
 </template>
 
 <script>
-import Information from './Information.vue';
-
 export default {
-  name: "About",
-  which_stuff: 'none',
- data() {
-    return {
-      which_stuff: 'none'
-    }
- }
- ,
- methods:{
-     render_about: function(){
-         this.which_stuff = 'about'
-     }
-     ,
-     render_links: function(){
-         this.which_stuff = 'links'
-     }
- },
- components: {
-     Information
- }
+  name: "Information",
 };
 </script>
 
@@ -50,21 +19,19 @@ export default {
 <style scoped>
 .pastel1 {
   color: black;
-  background: #B5EAD7;
+  background: #ff9aa2;
   font-family: "Georgia", "Times New Roman", Times, serif, serif;
   padding: 16px;
   border-style: solid;
-  border-radius: 30px;
-  width: 140px;
+  width: 200px;
 }
 .pastel2 {
   color: black;
   background: #ffb7b2;
   font-family: "Georgia", "Times New Roman", Times, serif, serif;
-  padding: 16px;
   border-style: solid;
-  border-radius: 30px;
-  width: 140px;
+  width: 195px;
+
 }
 .pastel3 {
   color: black;
@@ -72,7 +39,7 @@ export default {
   font-family: "Georgia", "Times New Roman", Times, serif, serif;
   padding: 16px;
   border-style: solid;
-  border-radius: 30px;
+
   width: 140px;
 }
 .pastel4 {
@@ -90,7 +57,7 @@ export default {
 }
 
 .flex-container {
-  align-items: center;
+  align-items:center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

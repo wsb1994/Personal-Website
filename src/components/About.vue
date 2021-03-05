@@ -67,8 +67,8 @@
       </p>
 
       <p>
-        &emsp; To see what other cool stuff I've built, check out my technologies tab,
-        or check out my github.
+        &emsp; To see what other cool stuff I've built, check out my
+        technologies tab, or check out my github.
       </p>
     </div>
   </div>
@@ -216,5 +216,10 @@ a:visited {
 
 a:active {
   text-decoration: underline;
+}
+img{
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
 }
 </style>

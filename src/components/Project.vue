@@ -30,6 +30,6 @@ a {
 
 h1 {
   color: black;
-  font-family: "Georgia", 'Times New Roman', Times, serif, serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 </style>

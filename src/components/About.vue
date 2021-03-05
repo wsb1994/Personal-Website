@@ -109,13 +109,12 @@ h1 {
   color: black;
   padding-top: 35px;
 }
-
 p {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   color: black;
   font-size: 25px;
   text-align: center;
-  max-width: 100%;
+  max-width: 50%;
 }
 .pastel1 {
   color: black;
@@ -217,9 +216,5 @@ a:visited {
 a:active {
   text-decoration: underline;
 }
-img{
-  width: auto ;
-  max-width: 50% ;
-  height: auto ;
-}
+
 </style>

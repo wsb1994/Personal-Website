@@ -35,16 +35,16 @@
         University of Kentucky. In particular I am actually the Outstanding
         Graduating Senior for Computer Science, which if you ask me, is kind of
         rad. I do a lot of cool coding stuff like building this website, which
-        was done with vue.js.
+        was done with Vue.js.
       </p>
 
       <p>
         &emsp; Some of the more fun things I've gotten to work on were the
         rendering SDK and client on next generation devices for the Disney+
         streaming service. Every time you go to watch WandaVision, or catch up
-        on what's happening to Baby Yoda on PS5, Xbox, your television, or even
-        your browser, you will in part have me to thank for the smooth
-        performance of the application.
+        on what's happening to Baby Yoda on PS5, Xbox, your smart TV, or even
+        your browser, you will in part have myself and my former coworker Elaine
+        to thank for the smooth performance of the application.
       </p>
       <p>
         &emsp; I also set up a good portion of the infrastructure that allows

@@ -2,7 +2,6 @@
   <div class="Header">
     <img
       alt="Person coding and drinking coffee"
-      max-width="100%"
       src="https://media.istockphoto.com/vectors/continuous-line-drawing-of-hands-typing-on-laptop-computer-vector-id942134284?k=6&m=942134284&s=612x612&w=0&h=oCeX91p7VDxgbZEM7uLkiJz1S6DUIsd-USV73mkjVpI="
     />
     <h1>Coding With Will</h1>
@@ -33,5 +32,10 @@ a {
 h1 {
   color: black;
   font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+img{
+  width: auto ;
+  max-width: 50% ;
+  height: auto ;
 }
 </style>

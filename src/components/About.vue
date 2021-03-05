@@ -31,32 +31,33 @@
 
     <div v-if="which_stuff === 'about'">
       <p>
-        Hello, I'm William Berry. I am a graduating Senior at the University of
-        Kentucky. In particular I am actually the Outstanding Graduating Senior
-        for Computer Science, which if you ask me, is kind of rad. I do a lot of
-        cool coding stuff like building this website, which was done with
-        vue.js.
+        &emsp; Hello, I'm William Berry. I am a graduating Senior at the
+        University of Kentucky. In particular I am actually the Outstanding
+        Graduating Senior for Computer Science, which if you ask me, is kind of
+        rad. I do a lot of cool coding stuff like building this website, which
+        was done with vue.js.
       </p>
 
       <p>
-        Some of the more fun things I've gotten to work on were the rendering
-        SDK and client on next generation devices for the Disney+ streaming
-        service. Every time you go to watch WandaVision, or catch up on what's
-        happening to Baby Yoda on PS5, Xbox, your telivision, or even your
-        browser, you will in part have me to thank for the smooth performance of
-        the application.
+        &emsp; Some of the more fun things I've gotten to work on were the
+        rendering SDK and client on next generation devices for the Disney+
+        streaming service. Every time you go to watch WandaVision, or catch up
+        on what's happening to Baby Yoda on PS5, Xbox, your telivision, or even
+        your browser, you will in part have me to thank for the smooth
+        performance of the application.
       </p>
       <p>
-        I also set up a good portion of the infrastructure that allows for
-        seamless password resets in a server-less configuration for ViacomCBS
-        across 53+ websites! I was able to consolidate all authorization and
-        authentication requests into one api/transformer service to help scale
-        with less resources. Nifty what the modern cloud can do!
+        &emsp; I also set up a good portion of the infrastructure that allows
+        for seamless password resets in a server-less configuration for
+        ViacomCBS across 53+ websites! I was able to consolidate all
+        authorization and authentication requests into one api/transformer
+        service to help scale with less resources. Nifty what the modern cloud
+        can do!
       </p>
       <p>
-        I am also very active at UK. Being the former Vice President of Social
-        Media for the Squirrel Watching Club (an outdoor activity club killed by
-        covid I'm afraid), and the current 2021 Vice President of the
+        &emsp; I am also very active at UK. Being the former Vice President of
+        Social Media for the Squirrel Watching Club (an outdoor activity club
+        killed by covid I'm afraid), and the current 2021 Vice President of the
         Association for Computing Machinery. I also help out as one of the
         Hackathon Planning chairs, planning CatHacks: Winter Edition, and
         Cathacks VII! It's been a ton of fun. I can't beleive I'm already
@@ -66,7 +67,7 @@
       </p>
 
       <p>
-        To see what other cool stuff I've built, check out my technologies tab,
+        &emsp;To see what other cool stuff I've built, check out my technologies tab,
         or check out my github.
       </p>
     </div>
@@ -113,8 +114,7 @@ p {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   color: black;
   font-size: 40px;
-  margin-left: 200px;
-  margin-right: 200px;
+  text-align: left;
 }
 .pastel1 {
   color: black;

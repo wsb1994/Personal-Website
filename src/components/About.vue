@@ -219,7 +219,7 @@ a:active {
 }
 img{
   width: auto ;
-  max-width: 100% ;
+  max-width: 50% ;
   height: auto ;
 }
 </style>

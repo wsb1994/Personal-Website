@@ -287,11 +287,11 @@ export default {
 .flex-container {
   padding-top: 100px;
   padding-bottom: 400px;
-  align-items: left;
+  align-items: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 a:link {

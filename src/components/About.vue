@@ -42,7 +42,7 @@
         &emsp; Some of the more fun things I've gotten to work on were the
         rendering SDK and client on next generation devices for the Disney+
         streaming service. Every time you go to watch WandaVision, or catch up
-        on what's happening to Baby Yoda on PS5, Xbox, your telivision, or even
+        on what's happening to Baby Yoda on PS5, Xbox, your television, or even
         your browser, you will in part have me to thank for the smooth
         performance of the application.
       </p>
@@ -60,7 +60,7 @@
         killed by covid I'm afraid), and the current 2021 Vice President of the
         Association for Computing Machinery. I also help out as one of the
         Hackathon Planning chairs, planning CatHacks: Winter Edition, and
-        Cathacks VII! It's been a ton of fun. I can't beleive I'm already
+        Cathacks VII! It's been a ton of fun. I can't believe I'm already
         graduating, but it's been an absolutely wild ride. I'm still currently
         available to hire, and I specialize in cloud based back-end services for
         your business or organization.
@@ -88,10 +88,10 @@ export default {
   },
 
   methods: {
-    render_about: function() {
+    render_about: function () {
       this.which_stuff = "about";
     },
-    render_technology: function() {
+    render_technology: function () {
       this.which_stuff = "technology";
     },
   },
@@ -114,7 +114,7 @@ p {
   color: black;
   font-size: 25px;
   text-align: center;
-  max-width: 50%;
+  max-width: 100%;
 }
 .pastel1 {
   color: black;
@@ -216,5 +216,4 @@ a:visited {
 a:active {
   text-decoration: underline;
 }
-
 </style>

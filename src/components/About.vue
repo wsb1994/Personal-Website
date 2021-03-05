@@ -115,6 +115,7 @@ p {
   color: black;
   font-size: 25px;
   text-align: left;
+  max-width: 100%;
 }
 .pastel1 {
   color: black;

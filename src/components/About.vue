@@ -114,7 +114,7 @@ p {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   color: black;
   font-size: 25px;
-  text-align: left;
+  text-align: center;
   max-width: 100%;
 }
 .pastel1 {

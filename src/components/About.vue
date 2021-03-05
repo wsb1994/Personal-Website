@@ -67,7 +67,7 @@
       </p>
 
       <p>
-        &emsp;To see what other cool stuff I've built, check out my technologies tab,
+        &emsp; To see what other cool stuff I've built, check out my technologies tab,
         or check out my github.
       </p>
     </div>
@@ -113,7 +113,7 @@ h1 {
 p {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   color: black;
-  font-size: 40px;
+  font-size: 25px;
   text-align: left;
 }
 .pastel1 {

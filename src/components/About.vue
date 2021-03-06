@@ -4,23 +4,23 @@
       <h1 class="pastel1" @click="render_about">About</h1>
       <h1 class="spacer"></h1>
 
-      <h1 class="pastel1" @click="render_technology">Technologies</h1>
+      <h1 class="pastel2" @click="render_technology">Technologies</h1>
       <h1 class="spacer"></h1>
 
       <a href="https://github.com/wsb1994">
-        <h1 class="pastel2">GitHub</h1>
+        <h1 class="pastel3">GitHub</h1>
       </a>
       <h1 class="spacer"></h1>
 
       <a href="https://www.linkedin.com/in/will-berry-8a65ab143/">
-        <h1 class="pastel3">LinkedIn</h1>
+        <h1 class="pastel4">LinkedIn</h1>
       </a>
       <h1 class="spacer"></h1>
 
       <a
         href="https://docs.google.com/document/d/1gQG_9dNoqCEmzCrnREhRplIQEw8pRiRKeVOycAXQ-Ig/edit?usp=sharing"
       >
-        <h1 class="pastel4">Resume</h1>
+        <h1 class="pastel5">Resume</h1>
       </a>
       <h1 class="spacer"></h1>
     </div>
@@ -30,51 +30,13 @@
     </div>
 
     <div v-if="which_stuff === 'about'">
-      <p>
-        &emsp; Hello, I'm William Berry. I am a graduating Senior at the
-        University of Kentucky. In particular I am actually the Outstanding
-        Graduating Senior for Computer Science, which if you ask me, is kind of
-        rad. I do a lot of cool coding stuff like building this website, which
-        was done with Vue.js.
-      </p>
-
-      <p>
-        &emsp; Some of the more fun things I've gotten to work on were the
-        rendering SDK and client on next generation devices for the Disney+
-        streaming service. Every time you go to watch WandaVision, or catch up
-        on what's happening to Baby Yoda on PS5, Xbox, your smart TV, or even
-        your browser, you will in part have myself and my former coworker Elaine
-        to thank for the smooth performance of the application.
-      </p>
-      <p>
-        &emsp; I also set up a good portion of the infrastructure that allows
-        for seamless password resets in a server-less configuration for
-        ViacomCBS across 53+ websites! I was able to consolidate all
-        authorization and authentication requests into one api/transformer
-        service to help scale with less resources. Nifty what the modern cloud
-        can do!
-      </p>
-      <p>
-        &emsp; I am also very active at UK. Being the former Vice President of
-        Social Media for the Squirrel Watching Club (an outdoor activity club
-        killed by covid I'm afraid), and the current 2021 Vice President of the
-        Association for Computing Machinery. I also help out as one of the
-        Hackathon Planning chairs, planning CatHacks: Winter Edition, and
-        Cathacks VII! It's been a ton of fun. I can't believe I'm already
-        graduating, but it's been an absolutely wild ride. I'm still currently
-        available to hire, and I specialize in cloud based back-end services for
-        your business or organization.
-      </p>
-
-      <p>
-        &emsp; To see what other cool stuff I've built, check out my
-        technologies tab, or check out my github.
-      </p>
+     <Paragraph />
     </div>
   </div>
 </template>
 
 <script>
+import Paragraph from './Paragraph.vue';
 import Technology from "./Technology.vue";
 
 export default {
@@ -98,6 +60,7 @@ export default {
 
   components: {
     Technology,
+    Paragraph
   },
 };
 </script>
@@ -143,7 +106,7 @@ p {
 }
 .pastel2:hover {
   color: black;
-  background: #ffb7b2;
+  background: #B5EAD7;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   padding: 16px;
   border-style: solid;
@@ -160,7 +123,7 @@ p {
 }
 .pastel3:hover {
   color: black;
-  background: #e2f0cb;
+  background: #E2F0CB;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   padding: 16px;
   border-style: solid;
@@ -178,7 +141,26 @@ p {
 
 .pastel4:hover {
   color: black;
-  background: #b5ead7;
+  background: #FFDAC1;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  padding: 16px;
+  border-style: solid;
+  border-radius: 30px;
+  width: 200px;
+}
+
+.pastel5 {
+  color: black;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  padding: 16px;
+  border-style: solid;
+  border-radius: 30px;
+  width: 200px;
+}
+
+.pastel5:hover {
+  color: black;
+  background: #FFB7B2;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   padding: 16px;
   border-style: solid;

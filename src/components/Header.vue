@@ -2,7 +2,7 @@
   <div class="Header">
     <img
       alt="Person coding and drinking coffee"
-      src="https://media.istockphoto.com/vectors/continuous-line-drawing-of-hands-typing-on-laptop-computer-vector-id942134284?k=6&m=942134284&s=612x612&w=0&h=oCeX91p7VDxgbZEM7uLkiJz1S6DUIsd-USV73mkjVpI="
+      src="../public/assets/drawing.jpg"
     />
     <h1>Coding With Will</h1>
   </div>

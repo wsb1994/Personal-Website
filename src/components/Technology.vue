@@ -24,138 +24,137 @@ export default {
       projects: [
         {
           img:
-            "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png",
+            require("../public/assets/python.jpg"),
           language: "Python",
           color: "blue",
           exp: "@CPlan-IT",
         },
         {
-          img: "https://rustacean.net/assets/cuddlyferris.png",
+          img:  require("../public/assets/rust.png"),
           language: "Rust",
           color: "pink",
           exp: "@Disney+",
         },
         {
           img:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
+            require("../public/assets/vue.png"),
           language: "Vue",
           color: "green",
           exp: "@Cplan-IT",
         },
         {
           img:
-            "https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png",
+            require("../public/assets/mongo.png"),
           language: "MongoDB",
           color: "green",
           exp: "@Cplan-IT",
         },
         {
           img:
-            "https://blog.iron.io/wp-content/uploads/2016/01/docker-logo.png",
+            require("../public/assets/docker.png"),
           language: "Docker",
           color: "blue",
           exp: "@ViacomCBS",
         },
         {
           img:
-            "https://www.probytes.net/wp-content/uploads/2018/10/flask-logo-png-transparent.png",
+            require("../public/assets/flask.png"),
           language: "Flask",
           color: "blue",
           exp: "@Cplan-IT",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcamo.githubusercontent.com%2F98ed65187a84ecf897273d9fa18118ce45845057%2F68747470733a2f2f7261772e6769746875622e636f6d2f676f6c616e672d73616d706c65732f676f706865722d766563746f722f6d61737465722f676f706865722e706e67&f=1&nofb=1",
+            require("../public/assets/go.png"),
           language: "Go",
           color: "blue",
           exp: "@ViacomCBS",
         },
         {
-          img: "https://symfony.com/logos/symfony_black_03.png",
+          img: require("../public/assets/symfony.png"),
           language: "Symfony",
           color: "pink",
           exp: "@ViacomCBS",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpytorch.org%2Fassets%2Fimages%2Fpytorch-logo.png&f=1&nofb=1",
+            require("../public/assets/pytorch.png"),
           language: "Pytorch",
           color: "pink",
           exp: "@Research",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F2d%2FTensorflow_logo.svg%2F449px-Tensorflow_logo.svg.png&f=1&nofb=1",
+            require("../public/assets/tensorflow.png"),
           language: "Tensorflow",
           color: "pink",
           exp: "@Research",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmaxcdn.icons8.com%2FShare%2Ficon%2FLogos%2Fcss31600.png&f=1&nofb=1",
+            require("../public/assets/css.png"),
           language: "CSS",
           color: "blue",
           exp: "@Projects",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F0%2F00%2FHTML5_logo_black.svg%2F1200px-HTML5_logo_black.svg.png&f=1&nofb=1",
-          language: "HTML5",
+           require("../public/assets/html.png"),
+           language: "html",
           color: "blue",
           exp: "@Projects",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F09%2FGitHub_logo.png&f=1&nofb=1",
-          language: "Git",
+            require("../public/assets/git.png"),
+          language: "git",
           color: "blue",
           exp: "@Everywhere!",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F0%2F0d%2FC_Sharp_wordmark.svg%2F464px-C_Sharp_wordmark.svg.png&f=1&nofb=1",
+           require("../public/assets/csharp.png"),
           language: "C#",
           color: "blue",
           exp: "@Rawlings",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwiki.sei.cmu.edu%2Fconfluence%2Fdownload%2Fthumbnails%2F88042725%2FC%2520Logo.png%3Fversion%3D1%26modificationDate%3D1527685155000%26api%3Dv2&f=1&nofb=1",
-          language: "C",
+           require("../public/assets/c.png"),
+           language: "C",
           color: "blue",
           exp: "@Disney+",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.freepngimg.com%2Fdownload%2Fc%2B%2B%2F2-2-c%2B%2B-png-clipart.png&f=1&nofb=1",
+            require("../public/assets/cplusplus.png"),
           language: "C++",
           color: "blue",
           exp: "@Disney+",
         },
         {
-          img:
-            "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsqlbackupandftp.com%2Fblog%2Fwp-content%2Fuploads%2F2015%2F01%2Fmysql-logo_2800x2800_pixels1-1024x1024.png&f=1&nofb=1",
+          img: require("../public/assets/sql.png"),
           language: "mySQL",
           color: "blue",
           exp: "@Rawlings",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.sqlalchemy.org%2Fimg%2Ftidelift.png&f=1&nofb=1",
+          require("../public/assets/sqlalchemy.png"),
           language: "SqlAlchemy",
           color: "blue",
           exp: "@Cplan-IT",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdwglogo.com%2Fwp-content%2Fuploads%2F2017%2F12%2F1100px_Redis_Logo_01.png&f=1&nofb=1",
+            require("../public/assets/redis.png"),
           language: "redis",
           color: "pink",
           exp: "@Projects",
         },
         {
           img:
-            "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_27628.png&f=1&nofb=1",
+            require("../public/assets/math.png"),
           language: "Math",
           color: "blue",
           exp: "@Everywhere!",

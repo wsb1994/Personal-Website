@@ -84,8 +84,8 @@ p{
   padding-bottom: 50px;
 }
 
-/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 1000px) {
 .flexbox {
   align-items: center;
   display: flex;

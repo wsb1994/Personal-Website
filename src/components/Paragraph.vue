@@ -54,6 +54,38 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.Paragraph {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+
+h1 {
+  color: black;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+p{
+  padding-bottom: 50px;
+}
+
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
 .flexbox {
   align-items: center;
   display: flex;
@@ -82,5 +114,6 @@ a {
 h1 {
   color: black;
   font-family: Avenir, Helvetica, Arial, sans-serif;
+}
 }
 </style>

@@ -2,7 +2,7 @@
   <div class="Header">
     <img
       alt="Person coding and drinking coffee"
-      src="../public/assets/drawing.jpg"
+      src="../public/assets/coffee.gif"
     />
     <h1>Coding With Will</h1>
   </div>

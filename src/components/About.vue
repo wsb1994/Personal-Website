@@ -18,7 +18,7 @@
       <h1 class="spacer"></h1>
 
       <a
-        href="https://docs.google.com/document/d/1gQG_9dNoqCEmzCrnREhRplIQEw8pRiRKeVOycAXQ-Ig/edit?usp=sharing"
+        href="https://docs.google.com/document/d/18Oy33HlY--1y4gn0xgRKcWJZ5RA0MwZ30fDnmeNt7Aw/edit?usp=sharing"
       >
         <h1 class="pastel5">Resume</h1>
       </a>

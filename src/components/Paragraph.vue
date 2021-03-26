@@ -32,11 +32,10 @@
         Association for Computing Machinery. I also help out as one of the
         Hackathon Planning chairs, planning CatHacks: Winter Edition, and
         Cathacks VII! It's been a ton of fun. I can't believe I'm already
-        graduating, but it's been an absolutely wild ride. I'm still currently
-        available to hire, and I specialize in cloud based back-end services for
-        your business or organization.
+        graduating, but it's been an absolutely wild ride.
       </p>
-
+	<p>
+	$empsp; I am currently slated to be employed as a video transcoding software engineer working with PlutoTV, working on video streaming infrastructure in 2021!</p>
       <p>
         &emsp; To see what other cool stuff I've built, check out my
         technologies tab, or check out my github.
@@ -61,7 +60,6 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 65%;
-
 }
 ul {
   list-style-type: none;
@@ -80,40 +78,34 @@ h1 {
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
-p{
+p {
   padding-bottom: 50px;
 }
 
+@media screen and (max-width: 600px) {
+  .Paragraph {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  a {
+    color: #42b983;
+  }
 
-@media screen and (max-width: 1000px) {
-.flexbox {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.Paragraph {
-  color: black;
-  font-size: 30px;
-  text-align: center;
-
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-
-h1 {
-  color: black;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-}
+  h1 {
+    color: black;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+  }
 }
 </style>

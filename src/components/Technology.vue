@@ -78,20 +78,6 @@ export default {
         },
         {
           img:
-            require("../public/assets/pytorch.png"),
-          language: "Pytorch",
-          color: "pink",
-          exp: "@Research",
-        },
-        {
-          img:
-            require("../public/assets/tensorflow.png"),
-          language: "Tensorflow",
-          color: "pink",
-          exp: "@Research",
-        },
-        {
-          img:
             require("../public/assets/css.png"),
           language: "CSS",
           color: "blue",

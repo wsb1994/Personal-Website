@@ -34,8 +34,7 @@
         Cathacks VII! It's been a ton of fun. I can't believe I'm already
         graduating, but it's been an absolutely wild ride.
       </p>
-	<p>
-	$empsp; I am currently slated to be employed as a video transcoding software engineer working with PlutoTV, working on video streaming infrastructure in 2021!</p>
+
       <p>
         &emsp; To see what other cool stuff I've built, check out my
         technologies tab, or check out my github.

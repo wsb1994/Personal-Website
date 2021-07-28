@@ -12,7 +12,7 @@
       </a>
       <h1 class="spacer"></h1>
 
-      <a href="https://www.linkedin.com/in/will-berry-8a65ab143/">
+      <a href="https://www.linkedin.com/in/will-b-8a65ab143/">
         <h1 class="pastel4">LinkedIn</h1>
       </a>
       <h1 class="spacer"></h1>
